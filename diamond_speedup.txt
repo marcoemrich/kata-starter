@@ -7,21 +7,21 @@ describe('Diamond', () => {
     ".B.B.\n" +
     "C...C\n" +
     ".B.B.\n" +
-    "..A.."   
+    "..A.."
     );
   });
 });
 
 
-const diamond = () => 
+const diamond = () =>
     "..A..\n" +
     ".B.B.\n" +
     "C...C\n" +
     ".B.B.\n" +
     "..A..";
- 
 
-const diamond = () => 
+
+const diamond = () =>
    ["..A..",
     ".B.B.",
     "C...C",
@@ -31,13 +31,13 @@ const diamond = () =>
 describe("middleLine", () => {
   it('should print a middle Line for a letter', () => {
     expect(middleLine("C")).toEqual("C...C");
-  });  
+  });
 });
 
 describe("spaces", () => {
   it('should print a given number of spaces', () => {
     expect(spaces(3)).toEqual("...");
-  });  
+  });
 });
 
 
